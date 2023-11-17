@@ -5,6 +5,7 @@ import Pages from "../Components/Pages/Page.jsx"
 import styles from '@/styles/Home.module.css'
 import Charts from '@/Components/Charts/Charts.jsx'
 import Cards from '@/Components/Cards/Cards.jsx'
+import Forms from '@/Components/Forms/forms.jsx'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Pages/>
       <Charts/>
       <Cards/>
+      <Forms/>
     </>
   )
 }
