@@ -1,0 +1,130 @@
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagesContainer{
+    width:1115.33px;
+    height: 1191px;
+    background-color: aqua;
+}
+.headder{
+    width:1,115.33px;
+    height:108px;
+    gap: 232px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroSection{
+    width: 1102px;
+height: 1047px;
+padding: 35px, 23px, 47.33px, 23px;
+border-radius: 4px;
+border: 1px;
+background-color: blanchedalmond;
+
+}
+
+.heroContainer{
+    width: 1,056px;
+height:964.67px;
+border: 1px solid black;
+
+}
+
+.descreptionSection{
+    width: 1,056px;
+height:337px;
+gap: 20px;
+
+}
+.image{
+    width: 600px;
+height: 336.96px;
+border-radius: 12px;
+
+}
+.descreptionSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageDescription{
+    width: 436px;
+height: 337px;
+padding: 22px, 23px, 65px, 23px;
+border-radius: 6px;
+border: 1px;
+border: 1px solid black;
+
+}
+
+.descTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cameraHealth{
+    width:1,054px;
+height:204px;
+gap: 18px;
+background-color: aquamarine;
+}
+
+.healthDesc_Section{
+    width:1,054px;
+height:162px;
+border: 1px solid black;
+gap: 20px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.Alert{
+    width: 338px;
+    height: 162px;
+    padding: 18px, 20px, 18px, 21px;
+    border-radius: 6px;
+    border: 1px solid black;
+    
+}
+
+.recordingSection{
+    width:1,052px;
+height:279.67px;
+gap: 18px;
+}
+
+.recordingHeadding{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.recordings{
+    width:1,052px;
+height:237.67px;
+gap: 12px;
+ border: 1px solid black;
+ display: flex ;
+ justify-content:space-evenly;
+ align-items: center;
+}
+
+.videoCard{
+    width:254px;
+height:237.67px;
+padding: 12px;
+border-radius: 4px;
+border: 1px solid black;
+gap: 10px;
+
+}
