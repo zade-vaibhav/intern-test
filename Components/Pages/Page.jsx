@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import CameraAltIcon from "@mui/icons-material/CameraAlt";
 import FlipCameraAndroidIcon from "@mui/icons-material/FlipCameraAndroid";
-import Image from "../../Assets/Rectangle 31.jpg";
+import Image from "next/image";
 
 const Page = () => {
   return (
@@ -19,11 +19,11 @@ const Page = () => {
             </div>
             <div className={styles.headderPath}>
               <div className={styles.pathTop}>
-                <p>VMS / Cameras / Camera Details</p>
-                <p>Bank Entrance-front-view Camera1</p>
+                <p  className={styles.pathTopHeadding}>VMS / Cameras / Camera Details</p>
+                <p className={styles.pathTopHeadding}>Bank Entrance-front-view Camera1</p>
               </div>
               <div className={styles.pathBottom}>
-                <p>
+                <p className={styles.pathTopHeadding}>
                   View and manage camera details, recordings and connection
                   details
                 </p>
@@ -52,7 +52,7 @@ const Page = () => {
 
             <div className={styles.descreptionSection}>
               <div className={styles.image}>
-                <img src="../../Assets/Vector.svg" />
+              <Image alt='aaa' width={600} height={336.69} src="/Group 49.png"></Image>
               </div>
               <div className={styles.imageDescription}>
                 <div className={styles.descTop}>

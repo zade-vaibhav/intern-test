@@ -1,0 +1,28 @@
+.Container{
+    height: 100vh;
+    width: 100vw;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    position: relative;
+}
+.detect{
+    position: absolute;
+    top: 10px;
+    left: 45%;
+}
+
+.cardContent{
+    margin-right: 15px;
+}
+
+.actionButton{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}

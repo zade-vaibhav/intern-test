@@ -1,0 +1,102 @@
+
+.chartContainer{
+    height:100vh;
+    width: 100vw;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart{
+    width: 1076px;
+height:275px;
+top: 353px;
+left: 218px;
+padding: 20px, 24px, 20px, 24px;
+border-radius: 12px;
+border: 1px solid black;
+gap: 10px;
+
+}
+
+.chartHeadding{
+    width:1028px;
+height:20px;
+text-align: center;
+}
+
+.chartData{
+    width:1028px;
+height: 190px;
+gap: 24px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.chartGraph{
+    width: 190px;
+height: 190px;
+background-color: aqua;
+margin-left: 20px;
+
+}
+.chartDatas{
+    width:814px;
+height: 176px;
+gap: 22px;
+
+}
+
+.working_Camera{
+    width:814px;
+height:56px;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.working_Camera p{
+    margin-left: 10px;
+}
+.nonworking_camera{
+    width:814px;
+height:66px;
+border-radius: 6px;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+background-color: blanchedalmond;
+}
+
+.nonworking_camera p{
+    flex: 1;
+margin-left: 10px;
+}
+
+.overall{
+    width:814px;
+height:18px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.bulletsOne{
+    height: 18px;
+    width: 18px;
+    background-color: green;
+    margin-right: 10px;
+   
+}
+
+.overAllPoints{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
