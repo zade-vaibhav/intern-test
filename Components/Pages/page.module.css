@@ -1,7 +1,7 @@
 .container {
   min-height: 100vh;
   width: 100vw;
-  background-color: red;
+  background-color:white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
 .pagesContainer {
   width: 1115.33px;
   height: 1191px;
-  background-color: aqua;
+  background-color: white;
 }
 .headder {
   width: 1115.33px;
@@ -18,6 +18,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.headderPath{
+  color: black;
+}
+.pathTopHeadding_mid{
+ color: rgb(170, 164, 164);
 }
 .headderLeft{
   display: flex;
@@ -29,13 +35,18 @@
   margin-top: 5px;
 }
 
+.pathTopHeadding span{
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .navContainer{
   width:45.33px;
 height: 45.33px;
 padding: 12px;
 border-radius: 6px;
 gap: 10px;
-background-color: rgb(180, 169, 169);
+/* background-color: rgb(180, 169, 169); */
 margin-right: 10px;
 }
 
@@ -45,14 +56,15 @@ margin-right: 10px;
   padding: 35px, 23px, 47.33px, 23px;
   border-radius: 4px;
   border: 1px;
-  background-color: blanchedalmond;
-
+  /* background-color: blanchedalmond; */
+  padding: 10px;
 }
 
 .heroContainer {
   width: 1, 056px;
   height: 964.67px;
-  border: 1px solid black;
+  border: 1px solid rgb(169, 166, 166);
+  padding: 10px;
 }
 
 .descreptionSection {
@@ -77,7 +89,8 @@ margin-right: 10px;
   padding: 22px, 23px, 65px, 23px;
   border-radius: 6px;
   border: 1px;
-  border: 1px solid black;
+  border: 1px solid rgb(170, 168, 168);
+  padding: 15px;
 }
 
 .descTop {
@@ -85,18 +98,51 @@ margin-right: 10px;
   justify-content: space-between;
   align-items: center;
 }
+.discTop_left{
+  width: 138px;
+height: 20px;
+font-size: 17px;
+color:black;
+font-weight: 600;
+
+}
+.descBottom p{
+  margin-top: 10px;
+  color: rgb(159, 154, 154);
+}
+
+.Strong{
+  color:black;
+}
+
+.alertData{
+  width:297px;
+height:126px;
+top: 18px;
+left: 21px;
+gap: 36px;
+
+}
+.alertData h4{
+  margin-bottom: 15px;
+}
 
 .cameraHealth {
   width: 1, 054px;
   height: 204px;
   gap: 18px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+}
+
+.cameraHealth h3{
+  margin: 10px;
+  color: black;
 }
 
 .healthDesc_Section {
   width: 1, 054px;
   height: 162px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   gap: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -108,7 +154,21 @@ margin-right: 10px;
   height: 162px;
   padding: 18px, 20px, 18px, 21px;
   border-radius: 6px;
-  border: 1px solid black;
+  border: 1px solid rgb(159, 154, 154);
+  padding: 15px;
+}
+
+.alertData_p{
+  color:greenyellow
+}
+.alertData h4{
+  color: black;
+}
+.alertData p {
+  color: rgb(158, 150, 150);
+}
+.alertData h1{
+  color: rgb(109, 107, 107);
 }
 
 .recordingSection {
@@ -121,12 +181,22 @@ margin-right: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 15px;
 }
+.recordingHeadding h1{
+   color: black;
+}
+
+
+.recordingHeadding a{
+  color: black;
+}
+
 .recordings {
   width: 1, 052px;
   height: 237.67px;
   gap: 12px;
-  border: 1px solid black;
+  /* border: 1px solid rgb(162, 159, 159); */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -137,6 +207,14 @@ margin-right: 10px;
   height: 237.67px;
   padding: 12px;
   border-radius: 4px;
-  border: 1px solid black;
+  border: 1px solid rgb(137, 131, 131);
   gap: 10px;
+  color:rgb(157, 152, 152);
+}
+
+.videoImage{
+  width: 230px;
+height: 167.67px;
+border-radius: 12px;
+
 }

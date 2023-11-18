@@ -8,7 +8,7 @@ const Charts = () => {
     <div className={Styles.chartContainer}>
       <div className={Styles.chart}>
         <div className={Styles.chartHeadding}>
-            chart
+            <h2>Camera Health</h2>
         </div>
         <div className={Styles.chartData}>
           <div className={Styles.chartGraph}>
@@ -31,15 +31,15 @@ const Charts = () => {
                 <p>Super Healthy (56)</p>
               </div>
               <div className={Styles.overAllPoints}>
-                <div className={Styles.bulletsOne}></div>
+                <div className={Styles.bulletsTwo}></div>
                 <p>Healthy (35)</p>
               </div>
               <div className={Styles.overAllPoints}>
-                <div className={Styles.bulletsOne}></div>
+                <div className={Styles.bulletsThree}></div>
                 <p>Warning (27)</p>
               </div>
               <div className={Styles.overAllPoints}>
-                <div className={Styles.bulletsOne}></div>
+                <div className={Styles.bulletsFour}></div>
                 <p>Danger (6)</p>
               </div>
              </div>
